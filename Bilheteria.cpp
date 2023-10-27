@@ -96,7 +96,7 @@ int main() {
     do {
         printf("\n=====- Menu -=====\n");
         printf("1. Vender Ticket\n");
-        printf("2. Mostrar Tickets Vendidos\n");
+        printf("2. Mostrar Tickets Gerados\n");
         printf("3. Sair\n");
         printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
