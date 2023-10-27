@@ -83,7 +83,7 @@ float mostragem_ticket(FILE *arquivo) {
 
 int main() {
     FILE *arquivo;
-    arquivo = fopen("vendasdeticket.csv", "a+");
+    arquivo = fopen("bilheteria.csv", "a+");
     int opcao;
 
     if (arquivo == NULL) {
