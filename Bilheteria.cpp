@@ -62,7 +62,7 @@ float venda_ticket(FILE *arquivo) {
 
         fprintf(arquivo, "%d,%s %s,%d,%d,%.2f\n", ticket.num, ticket.nome_cliente, ticket.sobrenome_cliente, ticket.tipo, ticket.exposicoes, ticket.valor);
 
-        printf("\nO Ticket foi vendido com sucesso!\n");
+        printf("\nO Ticket foi gerado com sucesso!\n");
         printf("Valor a ser pago pelo cliente e de : R$%.2f\n", ticket.valor); 
     } else {
         printf("\n Tivemos um erro ao calcular o preço do ticket.\n");
